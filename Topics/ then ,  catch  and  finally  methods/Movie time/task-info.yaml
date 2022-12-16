@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: .then to handle a positive result, .catch to handle a negative result
+- text: .then to handle a positive result, .finally to handle a negative result
+- text: '.then with two arguments: a function to handle a positive result, and another
+    to handle a negative result'
+- text: .finally to handle a positive result, .catch to handle a negative result
+- text: .finally to handle a positive result, .then to handle a negative result
+files:
+- name: main.js
+  visible: true
+  text: |+
+    // You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9991#comment
+status: Solved
+record: -1

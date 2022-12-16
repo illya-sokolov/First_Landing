@@ -1,0 +1,35 @@
+<h5 id="description">Description</h5>
+<p>In this stage, you are going to create a mini gallery that contains the images of the products listed on your landing page.</p>
+<p>Let's first start by creating a new &lt;div&gt; having an id of `product` just after the div having an id of <code class="language-html">home</code>. This div contains two more divs having an id of <code class="language-html">col-1</code> and <code class="language-html">col-2</code>. You can think of the outer div as a container acting as a row and the other two divs that are direct children as columns.</p>
+<p>Each of the divs having id of <code class="language-html">col-1</code> and <code class="language-html">col-2</code> contains a <strong>div</strong> and an <strong>image</strong> for the content. The divs present inside the div having an id of <code class="language-html">col-1</code> and <code class="language-html">col-2</code> has a second-level heading and a paragraph too. If these statements don't look promising you can refer to the below representation to get an actual flow of the layout.  </p>
+<p>Here is an example of the above-explained structure:</p>
+<pre><code class="language-html">&lt;!-- ROW --&gt;
+&lt;div id="product"&gt;
+  &lt;!-- COLUMN --&gt;
+  &lt;div id="col-1"&gt;
+    &lt;div&gt; &lt;!-- content --&gt; &lt;/div&gt;
+    &lt;!-- image --&gt;
+  &lt;/div&gt;
+  &lt;!-- COLUMN --&gt;
+  &lt;div id="col-2"&gt;
+    &lt;div&gt; &lt;!-- content --&gt; &lt;/div&gt;
+    &lt;!-- image --&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+<p> </p>
+<p>You can increase the number of <code class="language-html">div</code> rows, but the tests will only check for the first one.</p>
+<p>Now, you are done with creating a basic layout for the Product gallery. Let's apply some CSS to style whatever you've created using HTML.</p>
+<p>The display of the div having an id of <code class="language-html">product</code> should be <code class="language-html">flex</code> and set the width to <code class="language-html">800px</code>. The div tags having the id of <code class="language-html">col-1</code> and <code class="language-html">col-2</code> must have center-aligned texts and any overflows should be <strong>hidden</strong>. The paragraph tags just after the second-level headings should have the <strong>font-size</strong> of <code class="language-html">1.25rem</code> and the <strong>font-weight</strong> of <code class="language-html">300</code>.</p>
+<p>The images inside the divs having an id of <code class="language-html">col-1</code> and <code class="language-html">col-2</code> should have a width of <code class="language-html">296px</code>  and the border-radius is <code class="language-html">21px</code> on the top and right, <code class="language-html">0px</code> on the bottom and left. In addition, they should have the <code class="language-html">src</code>, <code class="language-html">title</code> and <code class="language-html">alt</code> attributes with the values of your liking.</p>
+<p>The example has extra paddings and margins, you can choose to add them.</p>
+<h5 id="objectives">Objectives</h5>
+<p>In this stage, you should have created the following in your first landing webpage:</p>
+<ul>
+<li>A new div having an id of <code class="language-html">product</code> in the <code class="language-html">main</code> just after the div having an id of <code class="language-html">home</code>.</li>
+<li>There are two div containers of ids <code class="language-html">col-1</code> and <code class="language-html">col-2</code> inside the div having an id of <code class="language-html">product</code>, and inside these <code class="language-html">divs</code> there is another div with the <code class="language-html">h2</code> and <code class="language-html">p</code> tags.</li>
+<li>There is an image tag inside each of the divs having an id of <code class="language-html">col-1</code> and <code class="language-html">col-2</code>.</li>
+<li>Apart from the above, there are different CSS properties applied that are mentioned above.</li>
+</ul>
+<h5 id="example">Example</h5>
+<p><strong>Example 1</strong>:</p>
+<p><img alt="" height="955" name="4.svg" src="https://ucarecdn.com/b4e00430-947f-4a76-9106-e51603e61e62/" width="1474"/></p>

@@ -1,0 +1,122 @@
+body {
+    max-height: 100vh;
+}
+
+header {
+    min-height: 10vh;
+}
+
+main {
+    min-height: 60vh;
+}
+
+footer {
+    min-height: 30vh;
+}
+
+nav {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#content p {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+#home {
+    overflow: hidden;
+    text-align: center;
+}
+
+#content a, #email {
+    display: inline-block;
+    background-color: aquamarine;
+    color: navy;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    text-decoration: none;
+    border: 1px blueviolet solid;
+    padding: 0.375rem 0.75rem;
+}
+
+#product {
+    display: flex;
+    width: 800px;
+}
+
+#col-1, #col-2 {
+    text-align: center;
+    overflow: hidden;
+}
+
+h2 + p {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+#col-1 img, #col-2 img {
+    width: 296px;
+    border-radius: 21px 21px 0 0;
+}
+
+footer {
+    max-width: 100%;
+}
+
+#contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contact-col1, #contact-col2  {
+    max-width: 100%;
+}
+
+/*input [type="email"] {*/
+/*    max-width: 228px;*/
+/*}*/
+
+div + div {
+    margin-bottom: 16px;
+}
+
+#div-2, #div-1 {
+    margin-bottom: 16px;
+}
+
+h5 {
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1.25rem;
+    color: crimson;
+}
+
+label {
+    display: block;
+}
+
+#checkbox {
+    display: inline;
+}
+
+button {
+    width: 100%;
+    display: inline-block;
+    border: 1px blue solid;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    padding: 0.375rem 0.75rem;
+    cursor: pointer;
+    color: blueviolet;
+    background-color: aqua;
+}
+
+#email, button {
+    width: 227.906px;
+    font-size: 1rem;
+    line-height: 24px;
+}
